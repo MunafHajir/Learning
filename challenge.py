@@ -20,7 +20,7 @@ incr = 0
 anothernum = 0
 newi = 0
 for i in range(len(a)-1):
-    if a[i] == '0' or a[i] == '1' or a[i] == '2' or a[i] == '3' or a[i] == '4' or a[i] == '5' or a[i] == '6'  or a[i] == '7' or a[i] == '8'  or a[i] == '9':
+    if a[i].isnumeric():
         num = a[i]
         incr = i
         ques = 0
